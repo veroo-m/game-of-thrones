@@ -28,6 +28,16 @@ body {
     grid-column: 2/4;
 }
 
+
+
+.filters {
+    background-color: green;
+    display: none;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 45px;
+}
+
 .menu {
     background-color: purple;
     min-height: 70px;
@@ -62,5 +72,9 @@ body {
         display: flex;
         justify-content: space-around;
         padding-top: 45px;
+    }
+
+    .filters {
+        display: flex;
     }
 }
