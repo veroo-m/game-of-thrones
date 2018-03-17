@@ -11,25 +11,25 @@ body {
 }
 
 .header {
-    background-color: yellow;
+    background-color: #41525B;
     grid-column: 1/4;
     grid-row: 1;
 
 }
 
 .sidebar {
-    background-color: red;
+    background-color: #F6F9FC;
     grid-column: 1;
     min-width: 100px;
 }
 
 .description {
-    background-color: blue;
+    background-color: #FFFFFF;
+    border: 1px solid black;
     grid-column: 2/4;
 }
 
 .filters {
-    background-color: green;
     display: none;
     justify-content: space-between;
     padding-top: 30px;
@@ -37,7 +37,7 @@ body {
 }
 
 .list {
-    background-color: white;
+    background-color: #F6F9FC;
 }
 
 .box {
@@ -46,7 +46,7 @@ body {
 }
 
 .menu {
-    background-color: purple;
+    background-color: #49616D;
     min-height: 70px;
 }
 
@@ -91,6 +91,7 @@ body {
     }
 
     .list {
+        background-color: #FFFFFF;
         margin-left: 7%;
     }
 }
