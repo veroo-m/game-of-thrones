@@ -5,7 +5,7 @@ body {
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 50px 100%;
+    grid-template-rows: 50px auto;
     width: 100vw;
     height: 100vw;
 }
@@ -28,14 +28,21 @@ body {
     grid-column: 2/4;
 }
 
-
-
 .filters {
     background-color: green;
     display: none;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-top: 30px;
     padding-bottom: 45px;
+}
+
+.list {
+    background-color: white;
+}
+
+.box {
+    height: 125px;
+    border: 1px solid black;
 }
 
 .menu {
@@ -70,11 +77,20 @@ body {
 
     .menu ul {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         padding-top: 45px;
     }
 
     .filters {
         display: flex;
+    }
+
+    .big_screen_alignment {
+        padding-right: 7%;
+        padding-left: 10%;
+    }
+
+    .list {
+        margin-left: 7%;
     }
 }
