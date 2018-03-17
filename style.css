@@ -27,11 +27,12 @@ body {
     background-color: #FFFFFF;
     border: 1px solid black;
     grid-column: 2/4;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
-.filters {
+.filters_tabs {
     display: none;
-    justify-content: space-between;
     padding-top: 30px;
     padding-bottom: 45px;
 }
@@ -45,7 +46,7 @@ body {
     border: 1px solid black;
 }
 
-.menu {
+.sidebar_tabs {
     background-color: #49616D;
     min-height: 70px;
 }
@@ -70,24 +71,36 @@ body {
     font-size: 12px;
 }
 
+.inline_tabs {
+    display: inline;
+}
+
+.horizontal_flex_alignment_small_screen {
+    display: flex;
+    justify-content: space-between;
+}
+
 @media only screen and (min-width: 992px) {
     .tabs {
         display: inline;
     }
 
-    .menu ul {
-        display: flex;
-        justify-content: space-between;
+    .sidebar_tabs ul {
         padding-top: 45px;
     }
 
-    .filters {
+    .filters_tabs {
         display: flex;
     }
 
     .big_screen_alignment {
         padding-right: 7%;
         padding-left: 10%;
+    }
+
+    .horizontal_flex_alignment {
+        display: flex;
+        justify-content: space-between;
     }
 
     .list {
