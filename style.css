@@ -1,27 +1,66 @@
+body {
+    margin: 0px;
+}
+
 .grid-container {
     display: grid;
-    grid-template-columns: (3, 1fr);
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px 100%;
     width: 100vw;
     height: 100vw;
 }
 
 .header {
     background-color: yellow;
-    height: 50px;
     grid-column: 1/4;
+    grid-row: 1;
 
 }
 
 .sidebar {
     background-color: red;
     grid-column: 1;
-    grid-row: 2/3;
     min-width: 100px;
 }
 
 .description {
     background-color: blue;
-    height: 300px;
     grid-column: 2/4;
-    grid-row: 2/3;
+}
+
+.menu {
+    background-color: purple;
+    min-height: 70px;
+}
+
+.no_bullet_points {
+    list-style-type: none;
+}
+
+.no_padding {
+    padding: 0;
+}
+
+.no_margin {
+    margin: 0;
+}
+
+.padding_5 {
+    padding: 5px;
+}
+
+.text{
+    font-size: 12px;
+}
+
+@media only screen and (min-width: 992px) {
+    .tabs {
+        display: inline;
+    }
+
+    .menu ul {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 45px;
+    }
 }
