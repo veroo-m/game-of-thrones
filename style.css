@@ -39,7 +39,7 @@ body {
 }
 
 .btn.tabs {
-    border-color: #708B9D;
+    border: 1px solid #708B9D;
     border-radius: 10px;
     padding: 10px 20px 10px 20px;
     background-color: #F6F9FC;
