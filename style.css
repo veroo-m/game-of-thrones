@@ -155,6 +155,15 @@ body {
 .element_float_left {
     float: left;
 }
+
+.active {
+    border-bottom: 3px solid #00D8D4;
+}
+
+.active_small_screen {
+   border-bottom: 3px solid #00D8D4; 
+}
+
 @media only screen and (min-width: 992px) {
     .description {
         padding-top: 10%;
@@ -212,6 +221,10 @@ body {
 
     .name {
         padding-right: 10px;
+    }
+
+    .active_small_screen {
+        border: 0px;
     }
 }
 
