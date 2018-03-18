@@ -38,6 +38,12 @@ body {
     padding-bottom: 45px;
 }
 
+.btn.tabs {
+    border-color: #708B9D;
+    border-radius: 13%;
+    padding: 10px 15px 10px 15px;
+}
+
 .list {
     background-color: #F6F9FC;
 }
