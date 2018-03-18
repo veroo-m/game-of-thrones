@@ -87,6 +87,10 @@ body {
     padding-top: 10px;
 }
 
+.subtitle {
+    font-weight: 700
+}
+
 .text{
     font-size: 14px;
     font-weight: 300;
@@ -97,6 +101,7 @@ body {
     font-weight: 700;
     font-size: 20px;
 }
+
 .inline_tabs {
     display: inline;
 }
