@@ -92,9 +92,18 @@ body {
 }
 
 .text{
+    color: #232B30,
     font-size: 14px;
     font-weight: 300;
     font-family: 'Lato', sans-serif;
+}
+
+.text_light {
+    color: #D2E3ED;
+}
+
+.text_medium_light {
+    color: #708D9B;
 }
 
 .title {
