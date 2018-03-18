@@ -12,6 +12,7 @@ body {
 
 .header {
     background-color: #41525B;
+    display: flex;
     grid-column: 1/4;
     grid-row: 1;
 
@@ -55,6 +56,13 @@ body {
     list-style-type: none;
 }
 
+.border_center_element {
+    border-right: 1px solid #708B9D;
+    border-left: 1px solid #708B9D;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
 .no_padding {
     padding: 0;
 }
@@ -65,6 +73,10 @@ body {
 
 .padding_5 {
     padding: 5px;
+}
+
+.padding_t_13 {
+    padding-top: 13px;
 }
 
 .text{
@@ -101,6 +113,12 @@ body {
 .fa-star{
     color: #00D8D4;
     padding-top: 31px;
+}
+
+.header_logo {
+    width: 35px;
+    height: 35px;
+    background-color: #41525B;
 }
 @media only screen and (min-width: 992px) {
     .tabs {
