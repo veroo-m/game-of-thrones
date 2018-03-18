@@ -83,12 +83,15 @@ body {
     padding: 5px;
 }
 
-.padding_t_15 {
-    padding-top: 15px;
+.padding_t_10 {
+    padding-top: 10px;
 }
 
 .text{
-    font-size: 12px;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+
 }
 
 .inline_tabs {
