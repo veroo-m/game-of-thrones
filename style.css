@@ -103,6 +103,10 @@ body {
         justify-content: space-between;
     }
 
+    .horizontal_flex_alignment_small_screen {
+        max-width: 40%;
+    }
+
     .list {
         background-color: #FFFFFF;
         margin-left: 7%;
