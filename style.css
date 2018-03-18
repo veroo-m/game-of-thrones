@@ -43,7 +43,7 @@ body {
 
 .box {
     height: 60px;
-    border: 1px solid black;
+    border-bottom: 1px solid #708D9B;
 }
 
 .sidebar_tabs {
@@ -86,6 +86,22 @@ body {
     border-radius: 50%;
 }
 
+.title {
+    font-size: 20px;
+}
+
+.hidden_element_small_screen {
+    display: none;
+}
+
+.hidden_elements{
+    display: none;
+}
+
+.fa-star{
+    color: #00D8D4;
+    padding-top: 31px;
+}
 @media only screen and (min-width: 992px) {
     .tabs {
         display: inline;
@@ -116,5 +132,29 @@ body {
     .list {
         background-color: #FFFFFF;
         margin-left: 7%;
+    }
+
+    .box {
+        height: 126px;
+        padding-top: 25px
+    }
+
+    .image {
+        height: 80px;
+        width: 80px;
+    }
+
+    .hidden_element_small_screen {
+        display: inline;
+    }
+
+    .name {
+        padding-right: 10px;
+    }
+}
+
+@media only screen and (min-width: 1196px){
+    .hidden_elements {
+        display: inline;
     }
 }
