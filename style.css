@@ -40,8 +40,9 @@ body {
 
 .btn.tabs {
     border-color: #708B9D;
-    border-radius: 13%;
-    padding: 10px 15px 10px 15px;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    background-color: #F6F9FC;
 }
 
 .list {
