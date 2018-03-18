@@ -56,11 +56,8 @@ body {
     list-style-type: none;
 }
 
-.border_center_element {
-    border-right: 1px solid #708B9D;
+.light_border_left {
     border-left: 1px solid #708B9D;
-    padding-right: 20px;
-    padding-left: 20px;
 }
 
 .padding_l_20 {
