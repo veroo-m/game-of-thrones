@@ -50,7 +50,7 @@ body {
 }
 
 .box {
-    height: 60px;
+    height: 70px;
     border-bottom: 1px solid #708D9B;
 }
 
@@ -84,13 +84,20 @@ body {
 }
 
 .margin-top-small-screen {
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 .padding-l-20 {
     padding-left: 20px;
 }
 
+.margin-left-5 {
+    margin-left: 5px;
+}
+
+.margin-r-5 {
+    margin-right: 5px;
+}
 .padding-r-20 {
     padding-right: 20px;
 }
@@ -119,6 +126,10 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+.font-small-screen {
+    font-size: 12px;
+}
+
 .text-light {
     color: #D2E3ED;
 }
@@ -129,7 +140,10 @@ body {
 
 .title {
     font-weight: 700;
-    font-size: 20px;
+}
+
+.title-font-size-small-screen {
+    font-size: 12px;
 }
 
 .inline-tabs {
@@ -171,6 +185,10 @@ body {
 
 .active {
     border-bottom: 3px solid #00D8D4;
+}
+
+.hidden-overflow {
+    overflow: hidden;
 }
 
 @media only screen and (min-width: 992px) {
@@ -244,8 +262,8 @@ body {
         margin-left: 0px;
     }
 
-    .margin-top-39 {
-        margin-top: 39px;
+    .margin-top-35 {
+        margin-top: 35px;
     }
 
     .margin-top-56 {
@@ -254,6 +272,14 @@ body {
 
     .margin-top-small-screen {
         margin-top: 23px;
+    }
+
+    .font-small-screen {
+        font-size: 14px;
+    }
+
+    .title-font-size-small-screen {
+        font-size: 20px;
     }
 }
 
