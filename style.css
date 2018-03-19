@@ -87,10 +87,6 @@ body {
     margin-top: 10px;
 }
 
-.padding-l-20 {
-    padding-left: 20px;
-}
-
 .margin-left-5 {
     margin-left: 5px;
 }
@@ -98,6 +94,11 @@ body {
 .margin-r-5 {
     margin-right: 5px;
 }
+
+.padding-left-20 {
+    padding-left: 20px;
+}
+
 .padding-r-20 {
     padding-right: 20px;
 }
