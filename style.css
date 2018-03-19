@@ -147,7 +147,7 @@ body {
     display: none;
 }
 
-.hidden-elements{
+.hidden-element-md-screen{
     display: none;
 }
 
@@ -258,7 +258,7 @@ body {
 }
 
 @media only screen and (min-width: 1196px){
-    .hidden-elements {
+    .hidden-element-md-screen {
         display: inline;
     }
 }
