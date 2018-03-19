@@ -192,7 +192,6 @@ body {
     overflow: hidden;
 }
 
-
 .max-width {
     max-width: 60px;
 }
@@ -257,10 +256,6 @@ body {
 
     .name {
         padding-right: 10px;
-    }
-
-    . {
-        border: 0px;
     }
 
     .margin-left-small-screen{
